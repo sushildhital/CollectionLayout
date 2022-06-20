@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CollectionViewPagingLayout'
+  s.name             = 'CollectionLayout'
   s.version          = '0.1.0'
   s.summary          = 'Custom collection view layout that allows you to page by cell.'
 
@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+s.description      = <<-DESC
 'Custom collection view layout that allows you to page by cell.'
-                      DESC
+                    DESC
 
-  s.homepage         = 'https://github.com/sushildhital/CollectionViewPagingLayout'
+  s.homepage         = 'https://github.com/sushildhital/CollectionLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sushildhital' => 'sushildhital0@gmail.com' }
-  s.source           = { :git => 'https://github.com/sushildhital/CollectionViewPagingLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sushildhital/CollectionLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
