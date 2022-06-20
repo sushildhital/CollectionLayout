@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CollectionLayout'
+  s.name             = 'CollectionViewPagingLayout'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CollectionLayout.'
+  s.summary          = 'Custom collection view layout that allows you to page by cell.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,22 +18,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+'Custom collection view layout that allows you to page by cell.'
+                      DESC
 
-  s.homepage         = 'https://github.com/sushildhital/CollectionLayout'
+  s.homepage         = 'https://github.com/sushildhital/CollectionViewPagingLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sushildhital' => 'sushildhital0@gmail.com' }
-  s.source           = { :git => 'https://github.com/sushildhital/CollectionLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sushildhital/CollectionViewPagingLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'CollectionLayout/Classes/**/*'
+  s.source_files = 'Sources/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+    "ios": "13.0"
+  }
   
   # s.resource_bundles = {
-  #   'CollectionLayout' => ['CollectionLayout/Assets/*.png']
+  #   'CollectionViewPagingLayout' => ['CollectionViewPagingLayout/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
